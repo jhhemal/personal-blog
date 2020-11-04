@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    /* overflow-x: hidden; */
 }
 body{
     margin: 0 50px;
+    overflow-x: hidden;
 }
 
 a{
@@ -187,11 +189,26 @@ footer{
     font-size: 25px;
     /* margin-top: 200px; */
 }
+.tags{
+    display: flex;
+    padding: 0 10px;
+}
+.tags a{
+    background-color: #e7e7e7;
+    color: #222;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.tags a:hover{
+    background-color: #c7c7c7;
+}
 
 @media (max-width:727px){
     body{
         margin: 0;
-        /* overflow-x: hidden; */
+        width: 100%;
+        overflow-x: hidden;
     }
     .mobile-menu{
         display: block;
