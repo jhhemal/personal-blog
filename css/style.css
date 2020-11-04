@@ -168,10 +168,11 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .sm-menu a{
     color: #fff;
+    margin-bottom: 10px;
     text-decoration: none;
 }
 
