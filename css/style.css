@@ -204,7 +204,7 @@ footer{
     background-color: #c7c7c7;
 }
 
-@media (max-width:727px){
+@media (max-width:1024px){
     body{
         margin: 0;
         width: 100%;
